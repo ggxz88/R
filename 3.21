@@ -1,0 +1,10 @@
+save(df_midterm, file = "df_midterm.rda")
+
+rm(df_midterm)
+
+df_midterm
+
+load("df_midterm.rda")
+
+df_midterm
+
